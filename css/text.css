@@ -1,7 +1,15 @@
 @charset "utf-8" ;
 
-.article {
+article {
+  width: 300px;
+  padding: 20px;
   background-color: green;
-  width: 600px;
-  height: 300px;
+}
+div {
+  background-color: silver;
+  width: 100%;
+  border: solid 5px white;
+  padding: 20px;
+  /* 追加 */
+  box-sizing: border-box;
 }
